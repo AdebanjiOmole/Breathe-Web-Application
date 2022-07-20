@@ -1,0 +1,76 @@
+/* css/style.css
+@@ -0,0 +1,277 @@ */
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/* VARIABLES */
+:root {
+  --primary-color: #06612c;
+  --secondary-color:#44586e;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.54;
+  text-align: center;
+}
+
+#navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0rem 3rem;
+    display: flex;
+    /* justify-content: flex-end; */
+    position: fixed;
+    width: 100vw;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  #navbar ul a {
+    display: inline-block;
+    padding: 1.2rem 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  #navbar ul a:hover {
+    background-color: rgb(253, 6, 47);
+  }
+  
+  #logo{
+    padding-left: 2px;
+}
+
+  #head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #left p{
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 30px;
+    margin-right: 100px;
+  }
+
+ #container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   }
