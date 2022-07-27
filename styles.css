@@ -3,7 +3,8 @@ body {
     font-family: "Lato", sans-serif;
     margin: 0px;
     overflow-x: hidden;
-    
+    /* margin-left: 50px;
+    margin-right: 50px; */
   }
   
   .container {
@@ -19,13 +20,15 @@ body {
     top: 0;
     z-index: 100;
     background-color: #ffffff;
-    min-height: 30px
-    
+    min-height: 30px;
+    box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
+    rgba(169, 190, 169, 0.35) 0px -2px 6px 0px inset;
+    /* border-bottom: 1px solid green */
   }
 
   .logo{
     margin-top: -40px;
-    margin-left: 60px;
+    margin-left: 130px;
   }
   
   .left-side {
@@ -112,7 +115,7 @@ body {
 }
 
 .item{
-    margin-left: 100px;
+    margin-left: 110px;
     border: black;
     padding: 32px;
     /* width: 800px; */
@@ -121,7 +124,8 @@ body {
     color: black;
     font-size: 45px;
     /* margin-top: 100px; */
-    margin-right: 100px;
+    /* margin-right: 50px; */
+    
     text-align: left;
     justify-content: center;
 }
@@ -155,34 +159,31 @@ h2 .green{
 }
 
 #app{
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-    cursor: pointer;
-    background-color: #C2FBD7;
-    border-radius: 10px;
-    border-width:0 ;
-    color: #008000;
-    display: inline-block;
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    height: 50px;
-    padding: 10px 10px;
-    transition: all 200ms;
-    margin-top: px;
-    text-align: center;
-    width: 200px;
-    font-weight: bolder;
+  float: left;
+  margin: -5px;
+  padding-top: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 130px;
+  height: 40px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(46, 160, 46);
+  color: white;
+  text-decoration: none;
 }
-
 #app:hover{
-background-color: #99ffa7;
-transform: scale(1.05);
+  color: red;
+  background-color: white;
+  border: 2px solid green;
 }
 
 
 /* About us */
 .aboutUs-wrapper{
     background-color:rgb(183, 252, 183);
+    text-align: center;
     /* margin: 0; */
 }
 
@@ -213,9 +214,10 @@ section{
   #linkbutton{
     float: left;
     margin: -5px;
-    padding-top: 15px;
-    border-radius: 100px;
-    width: 180px;
+    margin-left: 8px;
+    padding-top: 18px;
+    border-radius: 10px;
+    width: 150px;
     height: 40px;
     font-weight: bolder;
     font-size: 20px;
@@ -234,31 +236,32 @@ section{
 
   #buttonsignin{
     float: left;
-    margin: -5px;
-    margin-top: 15px;
-    padding: 10px;
-    border-radius: 100px;
+    margin: 4px;
+    margin-right: 130px;
+    padding-top: 19px;
+    border-radius: 10px;
     width: 150px;
-    height: 20px;
+    height: 40px;
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
     background-color: rgb(46, 160, 46);
     color: white;
     text-decoration: none;
-    margin-right: 60px;
   }
   #buttonsignin:hover{
     color: red;
     background-color: white;
     border: 2px solid green;
   }
-
+  .aboutmargin{
+    /* margin-left: -80px; */
+  }
 
   .about-us{
     font-size: 70px;
     text-align: left;
-    margin-bottom: 5px;
+    margin-bottom: -5px;
     margin-top: 5px;
     font-weight: bolder;
   }
@@ -280,32 +283,64 @@ section{
   }
   
   #box5{
-  
     height: 400px;
     margin: 50px;
     width: 600px;
+    padding-top: 10px;
+    margin-left: 90px;
     align-items: center;
     justify-items: center;
     /* width: 50%; */
     justify-content: center;
     text-align: center;
-    border-radius: 25px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
+    rgba(169, 190, 169, 0.35) 0px -2px 6px 0px inset;
   }
   
-   #box5 p{
+  #box5 p{
     /* text-align: center; */
     /* width: 40%; */
     font-size: 30px;
-    padding-top: 130px;
+    padding-top: 90px;
     padding-left: 30px;
     padding-right: 30px;
     /* justify-content: center; */
     /* align-content: center; */
-   } 
+  } 
+
+  #box6{
+    height: 400px;
+    margin: 50px;
+    width: 600px;
+    padding-top: 10px;
+    margin-right: 85px;
+    align-items: center;
+    justify-items: center;
+    /* width: 50%; */
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(151, 151, 170, 0.25) 0px 50px 100px -20px, rgba(175, 173, 173, 0.3) 0px 30px 60px -30px,
+    rgba(169, 190, 169, 0.35) 0px -2px 6px 0px inset;
+  }
   
-   .mission h2{
+  #box6 p{
+    /* text-align: center; */
+    /* width: 40%; */
+    font-size: 30px;
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* justify-content: center; */
+    /* align-content: center; */
+  } 
+
+
+
+
+  
+  .mission h2{
     text-align: left;
     margin-left: 45px;
     font-size: 30px;
@@ -587,7 +622,7 @@ section{
   
   /* specific design */
   .footer{
-    background-color: rgb(178, 230, 178);
+    background-color: rgb(247, 244, 244);
     padding: 120px 0;
     bottom: 0;
     width: 100%;
@@ -605,7 +640,7 @@ section{
   
   .footer-col h4{
     font-size: 20px;
-    color: red;
+    color: black;
     text-transform: capitalize;
     margin-bottom: 0px;
     font-weight: 500;
@@ -643,7 +678,7 @@ section{
 
   .footer-col ul li a{
     font-size: 15px;
-    color: red;
+    color: black;
     text-decoration: none;
     transition: all 0.3s ease;
   }
@@ -687,7 +722,7 @@ section{
   }
   
   /* responsive */
-  /* @media(max-width: 574px){
+  @media(max-width: 574px){
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
@@ -705,7 +740,7 @@ section{
     font-size: 15px;
     color: green;
     transition: all 0.5s ease;
-  } */
+  }
 
 
 
