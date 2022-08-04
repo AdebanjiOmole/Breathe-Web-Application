@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Payment Platform</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./signin.css">
@@ -14,33 +14,35 @@
     <div class="container">
         <form class="form" id="createAccount">
             <a class="logosignin" href="index.html"><img src="/image/Breathe logo.png" alt=""></a>
-            <h1 class="form__title">Register</h1>
+            <h1 class="form__title">Payment</h1>
+            <div class="form_message form_message--error"></div>
+            <h2 class="form__title">Enter Card Details</h2>
             <div class="form_message form_message--error"></div>
             <div class="form__input-group">
-                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="First Name">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Full Name">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Last Name">
+                <input type="text" class="form__input" autofocus placeholder="16 digit card number">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Email Address">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Security Code (CVV)">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Phone Number">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Expiration Date (MM/YY)">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Gender">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Enter Amount">
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Age">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Naration">
                 <div class="form__input-error-message"></div>
             </div>
-            <div class="form__input-group">
+            <!-- <div class="form__input-group">
                 <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Location">
                 <div class="form__input-error-message"></div>
             </div>
@@ -51,11 +53,11 @@
             <div class="form__input-group">
                 <input type="password" class="form__input" autofocus placeholder="Confirm password">
                 <div class="form__input-error-message"></div>
-            </div>
-            <button class="form__button" type="submit">Register</button>
-            <p class="form__text">
+            </div> -->
+            <button class="form__button" href="#" type="submit">Securely Pay</button>
+            <!-- <p class="form__text">
                 <a class="form__link" href="successreg.html" id="linkLogin">Already have an account? Sign In</a>
-            </p>
+            </p> -->
         </form>
     </div>
     <script src="./src/signin.js"></script>

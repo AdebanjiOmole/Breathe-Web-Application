@@ -1123,6 +1123,19 @@ section{
 }
 
 /* IMPACT SECTION MAIN STYLING */
+
+.herowrapimpact {
+  /* opacity: 0.5; */
+  background-image: url("image/hero\ try.jpg");
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.4);
+  /* filter: blur(-5px); */
+  /* width: 100vh; */
+  height: 100vh;
+}
+
 /* testmonial */
 .testmonial-wrapper {
   background: #eaf0fc;
@@ -1257,7 +1270,12 @@ section{
   height: 400px;
   width: 400px;
   padding-left: 145px;
+  padding-top: 50px;
 }
+.text-panel-content2{
+  padding-top: 50px;
+}
+
 .subtitle{
   color: white;
   font-size: 30px;

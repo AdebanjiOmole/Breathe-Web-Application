@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Forgotten-Password</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./signin.css">
@@ -14,7 +14,7 @@
     <div class="container">
         <form class="form" id="createAccount">
             <a class="logosignin" href="index.html"><img src="/image/Breathe logo.png" alt=""></a>
-            <h1 class="form__title">Sign In</h1>
+            <h1 class="form__title">Forgot Password</h1>
             <div class="form_message form_message--error"></div>
             <!-- <div class="form__input-group">
                 <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
@@ -24,21 +24,14 @@
                 <input type="text" class="form__input" autofocus placeholder="Email Address">
                 <div class="form__input-error-message"></div>
             </div>
-            <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Password">
-                <div class="form__input-error-message"></div>
-            </div>
-            <p class="form__text">
-                <a class="form__link" href="forgetpass.html" id="linkLogin">Forgot Password</a>
-            </p>
             <!-- <div class="form__input-group">
                 <input type="password" class="form__input" autofocus placeholder="Confirm password">
                 <div class="form__input-error-message"></div>
             </div> -->
-            <button class="form__button" type="submit">Sign In</button>
-            <p class="form__text">
-                <a class="form__link" href="register.html" id="linkLogin">Don't have an account? Register</a>
-            </p>
+            <button class="form__button" href="passreset.html" type="submit">Request Reset</button>
+            <!-- <p class="form__text">
+                <a class="form__link" href="passreset.html" id="linkLogin">Don't have an account? Register</a>
+            </p> -->
         </form>
     </div>
     <script src="./src/signin.js"></script>
