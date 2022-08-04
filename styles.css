@@ -1280,3 +1280,18 @@ section{
   color: white;
   font-size: 30px;
 }
+
+
+/* LIVE CHANGES */
+.hero-h{
+  color: #282829;
+  font-size: 45px;
+  font-weight: 200px;
+}
+
+.hero-p{
+  color: #323233;
+  font-size: 24px;
+  padding-bottom: 100px;
+}
+
