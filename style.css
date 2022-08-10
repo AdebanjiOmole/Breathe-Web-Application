@@ -179,14 +179,12 @@ background-color: white;
 border: 2px solid green;
 }
 
-
 /* About us */
 .aboutUs-wrapper{
   background-color:rgb(183, 252, 183);
   text-align: center;
   /* margin: 0; */
 }
-
 
 section{
   width: 60%;
