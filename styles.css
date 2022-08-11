@@ -337,7 +337,7 @@ section{
     margin-bottom: 100px;
   }
 
-  .line-arrow{
+  /* .line-arrow{
     position: absolute;
     overflow: hidden;
     display: inline-block;
@@ -348,8 +348,15 @@ section{
     top: 50%;
     color: red;
     transform: rotate(50deg) skew(20deg);
+  } */
+
+  .enhance{
+    justify-content: center;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    font-weight: 40px;
   }
-  
 .stat{
   font-size: 30px;
   color: green;
