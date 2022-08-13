@@ -20,14 +20,14 @@
     "strapi-plugin-email": "3.1.0-alpha.5",
     "strapi-plugin-upload": "3.1.0-alpha.5",
     "strapi-connector-bookshelf": "3.1.0-alpha.5",
-    "knex": "^0.20.0",
+    "knex": "<0.20.0",
     "sqlite3": "latest"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "fb39101d-9376-42ba-b793-2896e3224931"
+    "uuid": "204bc4e3-17be-4bb6-8c43-4a9371d1c0ac"
   },
   "engines": {
     "node": ">=10.0.0",
