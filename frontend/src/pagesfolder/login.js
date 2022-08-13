@@ -5,7 +5,7 @@ const login = () => {
     <div class="container" style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/image/maproad.jpg'})` }} >
         <form class="form" id="createAccount">
             <a class="logosignin" href="index.html"><img src="assets/image/Breathe logo.png" alt="" /></a>
-            <h1 class="form__title"></h1>
+            <h1 class="form__title">Breathe</h1>
             <div class="form_message form_message--error"></div>
             <div class="form__input-group">
                 <input type="text" class="form__input" autofocus placeholder="Email Address" />
