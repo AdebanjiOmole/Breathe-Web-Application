@@ -40,9 +40,9 @@
                     <a href="contact.html">Contact</a>
                 </div>
 
-                <div class="nav-link-wrapper">
+                <!-- <div class="nav-link-wrapper">
                     <a href="ordenow.html" style="color:red;">Order Now</a>
-                </div>
+                </div> -->
             </div>
             <div>
                 <a id="buttonsignin" href="signin.html">
@@ -109,14 +109,23 @@
 
 
                     <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                        <table>
+                            <tr>
+                              <th colspan="2">Your order</th>
+                            </tr>
+                            <tr>
+                              <td>Date (Order Staus)</td>
+                              <td>DETAILS</td>
+                            </tr>
+                            <tr>
+                              <td>Date (Order Staus)</td>
+                              <td>DETAILS</td>
+                            </tr>
+                            <tr>
+                              <td>Date (Order Staus)</td>
+                              <td>DETAILS</td>
+                            </tr>
+                          </table><br>
                     </div>
 
                 </div>
@@ -151,7 +160,7 @@
                         <span>Company Name (Optional)</span>
                         <input type="text" name="cn">
                     </label>
-                    <label>
+                    <!-- <label>
                         <span>Country <span class="required">*</span></span> <br>
                         <br>
                         <select name="selection">
@@ -164,27 +173,27 @@
                             <option value="ZMB">Zambia</option>
                             <option value="ZWE">Zimbabwe</option>
                         </select>
-                    </label>
-                    <label>
+                    </label> -->
+                    <!-- <label>
                         <span>Street Address <span class="required">*</span></span>
                         <input type="text" name="houseadd" placeholder="House number and street name" required>
-                    </label>
-                    <label>
+                    </label> -->
+                    <!-- <label>
                         <span>&nbsp;</span>
                         <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
-                    </label>
+                    </label> -->
                     <label>
                         <span>Town / City <span class="required">*</span></span>
                         <input type="text" name="city">
                     </label>
                     <label>
-                        <span>State / County <span class="required">*</span></span>
+                        <span>State<span class="required">*</span></span>
                         <input type="text" name="city">
                     </label>
-                    <label>
+                    <!-- <label>
                         <span>Postcode / ZIP <span class="required">*</span></span>
                         <input type="text" name="city">
-                    </label>
+                    </label> -->
                     <label>
                         <span>Phone <span class="required">*</span></span>
                         <input type="tel" name="city">
@@ -248,7 +257,9 @@
                         </tr>
                     </table><br>
                 </div>
-                <button type="button">Confirm Order</button>
+                <button type="button">
+                    <a href="payment.html" class="confirmpayment">Confirm Order</a>
+                </button>
             </div>
             Confirm and proceed to payment
         </div>
