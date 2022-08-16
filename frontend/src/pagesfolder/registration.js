@@ -38,6 +38,7 @@ const Registration = () => {
             </div>
             <div className="form__input-group">
                 <input type="email" id="signupUsername" name='email' value={formValue.email} onChange={handleInputChange} className="form__input" autoFocus placeholder="Email Address" />
+
                 <div className="form__input-error-message"></div>
             </div>
             <div className="form__input-group">
@@ -54,6 +55,7 @@ const Registration = () => {
             </div>
             <div className="form__input-group">
                 <input type="password" className="form__input" name='password' value={formValue.password} onChange={handleInputChange} autoFocus placeholder="Password" />
+                
                 <div className="form__input-error-message"></div>
             </div>
             <div className="form__input-group">
@@ -62,7 +64,7 @@ const Registration = () => {
             </div>
             <button className="form__button" type="submit">Register</button>
             <p className="form__text">
-                <Link className="form__link" id="linkLogin"to="/login">Already have an account? Sign In</Link>
+                <Link className="form__link" id="linkLogin"to="/home">Already have an account? Sign In</Link>
             </p>
         </form>
     </div>

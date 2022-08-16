@@ -289,6 +289,53 @@ const home = () => {
       </div>
     </div>
   );
+ 
+    <div class="footer-wrapper">
+        <footer class="footer">
+            <div class="containerf">
+                <div class="row">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-brand"><img alt="Breathe"
+                            src="assets/image/Breathe logo.png" /></a>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://Breathe.com/privacy-notice/">Privacy notice</a></li>
+                        <li><a href="https://Breathe.com/anti-bribery-and-corruption-policy/">ABC policy</a></li>
+                        <li><a href="https://Breathe.com/code-of-conduct/">Code of conduct</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://Breathe.com/faq/">FAQs</a></li>
+                        <li><a href="https://Breathe.com/blog/">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-title">About us</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://Breathe.com/about-us/">Who we are</a></li>
+                        <li><a href="https://Breathe.com/platform/">Platform</a></li>
+                        <li><a href="https://Breathe.com/careers/">Careers</a></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <p class="copyright">© Copyright 2022 Breathe. All rights reserved.</p>
+        </footer>
+    </div>
 };
 
 export default home;
