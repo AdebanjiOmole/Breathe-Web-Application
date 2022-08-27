@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_08_24_224512) do
+ActiveRecord::Schema[7.0].define(version: 2022_08_27_210327) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -35,6 +35,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_24_224512) do
     t.decimal "total"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "paid", default: false
+    t.string "transaction_id"
     t.index ["user_id"], name: "index_orders_on_user_id"
   end
 
@@ -80,6 +82,16 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_24_224512) do
     t.index ["user_id"], name: "index_products_on_user_id"
   end
 
+  create_table "transactions", force: :cascade do |t|
+    t.string "tx_ref"
+    t.bigint "user_id", null: false
+    t.decimal "amount"
+    t.string "mode_of_payment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_transactions_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
@@ -95,4 +107,5 @@ ActiveRecord::Schema[7.0].define(version: 2022_08_24_224512) do
   add_foreign_key "placements", "orders"
   add_foreign_key "placements", "products"
   add_foreign_key "products", "users"
+  add_foreign_key "transactions", "users"
 end

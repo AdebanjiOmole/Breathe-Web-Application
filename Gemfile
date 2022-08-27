@@ -36,6 +36,9 @@ gem "jbuilder"
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 gem "bcrypt", "~> 3.1.7"
 gem 'jwt'
+gem 'rack-cors'
+gem 'flutterwave_sdk'
+gem 'httparty'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
@@ -56,9 +59,6 @@ group :development, :test do
   gem "ffi"
   gem 'factory_bot_rails'
   gem 'database_cleaner'
-  gem 'rack-cors'
-  gem 'flutterwave_sdk'
-  gem 'httparty'
 end
 
 group :development do
