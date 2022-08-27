@@ -1,7 +1,7 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe Order do
-  let(:order) { FactoryGirl.build :order }
+  let(:order) { FactoryBot.build :order }
   subject { order }
 
   it { should respond_to(:total) }

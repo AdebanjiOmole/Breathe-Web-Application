@@ -1,0 +1,3 @@
+class MyService
+    
+    end
